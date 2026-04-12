@@ -11,6 +11,7 @@ static const char *upvol[]      = { "/usr/bin/pactl",   "set-sink-volume", "0", 
 static const char *downvol[]    = { "/usr/bin/pactl",   "set-sink-volume", "0",      "-5%",      NULL };
 static const char *mutevol[]    = { "/usr/bin/pactl",   "set-sink-mute",   "0",      "toggle",   NULL };
 ```
+
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	```
@@ -18,6 +19,7 @@ static const Key keys[] = {
 	{ 0,                XF86XK_AudioMute,      spawn,          {.v = mutevol } },
 	{ 0,         XF86XK_AudioRaiseVolume,      spawn,          {.v = upvol   } },
 	```
+
 Add to slstatus:
 ```
 { run_command, "  %s ", "pamixer --get-volume-human" },
