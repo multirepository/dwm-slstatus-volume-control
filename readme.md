@@ -17,6 +17,9 @@ static const char *mutevol[]    = { "/usr/bin/pactl",   "set-sink-mute",   "0", 
 	{ 0,         XF86XK_AudioLowerVolume,      spawn,          {.v = downvol } },
 	{ 0,                XF86XK_AudioMute,      spawn,          {.v = mutevol } },
 
+Dependencies for keybinds:
+1. ```pulseaudio-utils```
+
 Add to slstatus:
 ```
 { run_command, "  %s ", "pamixer --get-volume-human" },
