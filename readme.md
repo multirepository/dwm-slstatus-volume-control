@@ -26,6 +26,7 @@ Add to slstatus:
 ```
 Dependencies for slstatus:
 1. ```pamixer```
+2. ```font-awesome``` if you want the icon from the sample
 
 Sample:
 <img width="1920" height="1080" alt="sample" src="https://github.com/user-attachments/assets/f6ca84e1-49cd-463d-9bc8-d8d10beecb49" />
