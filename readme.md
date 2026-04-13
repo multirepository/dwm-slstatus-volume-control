@@ -24,11 +24,10 @@ Add to slstatus:
 ```
 { run_command, "  %s ", "pamixer --get-volume-human" },
 ```
+Dependencies for slstatus:
+1. ```pamixer```
 
 Sample:
 <img width="1920" height="1080" alt="sample" src="https://github.com/user-attachments/assets/f6ca84e1-49cd-463d-9bc8-d8d10beecb49" />
-
-Dependencies for slstatus:
-1. ```pamixer```
 
 Have a good day!
