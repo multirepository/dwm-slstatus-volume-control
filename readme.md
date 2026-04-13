@@ -1,6 +1,6 @@
 This is more of a personal note than a manual, but nevertheless, it might help someone.
 
-```ONLY WORKS WITH PULSEAUDIO!!! and maybe pipewire through the compatibility layer?```
+```ONLY WORKS WITH PULSEAUDIO!!!``` ```and maybe pipewire through the compatibility layer?```
 
 Add keybinds in dwm:
 
